@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gnmb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0019-tenant/tkrw-pr712-0075-0019-app/devfile-sample-gnmb@sha256:1e38d57289fbc10ef75d50ce65e6c9a5ce106291229725262e1fd67eaddc405b
         name: my-nodejs
         ports:
         - containerPort: 3001
